@@ -16,16 +16,19 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  font-family: 'Tangerine', sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color: #f43662;
+  color: #f43662; /* Rosa escuro */
+  text-decoration: none;
 }
 
-.logo img {
+.logo .icon {
   width: 28px;
   height: 28px;
+  margin-right: 8px;
 }
+
 
 nav a {
   margin-left: 20px;
