@@ -1,1 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Patrick Hand', cursive;
+  background-color: #fff5ec;
+  color: #2e2e2e;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #ffe3e3;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f43662;
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f43662;
+  font-weight: bold;
+}
+
+.sobre-mim {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff0f6;
+}
+
+.foto-perfil {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 20px 0;
+  object-fit: cover;
+}
+
+.descricao {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.interesses {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
 
